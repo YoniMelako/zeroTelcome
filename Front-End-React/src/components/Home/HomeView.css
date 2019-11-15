@@ -1,0 +1,74 @@
+div {
+  display: block;
+}
+
+.view {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.view .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.white-text {
+  position: relative;
+  margin-top: 130px;
+}
+
+.btn-outline-success {
+  font-size: larger;
+  font-weight: 400;
+  border-radius: unset;
+}
+
+.modal-content {
+  background-color: #7183a1a1;
+}
+
+.btn-success {
+  color: #fff;
+  border-radius: 3px;
+  background-image: linear-gradient( 122deg, #28c7c0 0%, #00ff8b 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  border: 0;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:not([disabled]):not(.disabled).active, .btn-success:not([disabled]):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+  background-image: linear-gradient( 122deg, #24b3ad 0%, #00e27b 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #FFF;
+}

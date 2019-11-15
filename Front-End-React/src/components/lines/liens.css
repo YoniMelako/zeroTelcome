@@ -1,0 +1,20 @@
+.lines-body {
+  padding-top: 100px;
+  /* height: 100vh; */
+}
+
+.container {
+  padding-top: 16px;
+  margin-bottom: 20%;
+}
+
+@media screen and (max-width: 720px) {
+  /*CSS code for devices with a maximal width of 720 px */
+  .lines-body {
+    padding-top: 100px;
+    height: auto;
+  }
+  .col-sm-4 {
+    margin-top: 5%;
+  }
+}

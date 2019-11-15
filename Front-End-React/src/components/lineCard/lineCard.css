@@ -1,0 +1,17 @@
+.card {
+  background-color: #7174b824;
+  box-shadow: 4px -4px 9px #7ab1f6;
+  color: #efe8e8;
+  border-radius: 137px;
+}
+img {
+  margin: auto;
+  width: 60% !important;
+}
+
+@media screen and (max-width: 720px) {
+  /*CSS code for devices with a maximal width of 720 px */
+  .card {
+    margin: auto;
+  }
+}

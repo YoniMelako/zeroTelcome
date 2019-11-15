@@ -1,0 +1,41 @@
+.navbar {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f51b56e !important;
+  box-shadow: -1px 3px 7px 0px #6018c0;
+}
+
+.nav-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .dropdown-menu a {
+  padding: 10px;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  color: #000;
+}
+
+strong {
+  color: white
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-right {
+    margin-right: 100px;
+  }
+  .navbar-right :hover {
+    cursor: pointer;
+  }
+}
+
+.user {
+  color: aquamarine!important;
+}
+
+.fa-phone-volume {
+  color: aquamarine!important;
+}
+
+.user-name {
+  color: red!important;
+}

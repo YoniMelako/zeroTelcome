@@ -1,0 +1,54 @@
+body {
+  background-image: linear-gradient(to right, #3f6099, #95afd0);
+}
+
+.form-body {
+  height: 100vh;
+}
+
+.text-white {
+  color: rgb(181, 185, 202) !important;
+}
+
+input {
+  border-radius: 50px !important;
+}
+
+.btn-default {
+  background-color: #20295b6e;
+  border-radius: 50px;
+}
+
+.btn-default:hover {
+  background-color: #e50c0c4a;
+}
+
+.btn-primary {
+  background-color: #32be628a;
+  border-color: #e3e3e366;
+  margin-bottom: 16px;
+}
+
+form {
+  padding-left: 16px;
+  padding: 16px;
+  padding-bottom: 16px;
+  color: rgba(246, 246, 246, 0.5) !important;
+}
+
+.form-style {
+  width: 50%;
+  margin: 200px auto;
+  background-color: #7183a1a1;
+  border-radius: 0.3rem;
+}
+
+.register-click {
+  color: red;
+}
+
+@media only screen and (max-width: 480px) {
+  .form-style {
+    width: 80%;
+  }
+}

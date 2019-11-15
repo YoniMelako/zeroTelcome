@@ -1,0 +1,57 @@
+.text-white {
+    color: rgba(0, 123, 255, .5)!important
+  }
+  
+  input {
+    border-radius: 50px!important;
+  }
+  
+  .btn-default {
+    background-color: #20295b6e;
+    border-radius: 50px;
+  }
+  
+  .btn-default:hover {
+    background-color: #e50c0c4a;
+  }
+  
+  .btn-primary {
+    background-color: #32be628a;
+    border-color: #e3e3e366;
+  }
+  
+  .registerSuccess {
+    font-size: larger;
+    text-align: center;
+    color: green;
+    background: #ffffff38;
+    margin-bottom: 10px;
+  }
+  
+  .registerSuccess {
+    font-size: larger;
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+  }
+
+
+  .form-style{
+  
+    width: 50%;
+    margin: 130px auto;
+    background-color: #7183a1a1;
+    border-radius: .3rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .form-style {
+        width: 80%;
+    }
+  }
+  
+  
+  
+  
+  
+  
