@@ -11,8 +11,8 @@ const UsersSchema = Schema({
   Firstname: { type: String, required: true },
   Lastname: { type: String, required: true },
   ID: { type: String, required: true },
-  Address: { type: String, required: true },
-  City: { type: String, required: true },
+  Address: { type: String, required: false },
+  City: { type: String, required: false },
   BirthDay: { type: Date },
   password: { type: String, required: true, minlength: 6 },
   CellularPack: [
